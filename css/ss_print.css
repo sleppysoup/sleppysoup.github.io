@@ -1,0 +1,22 @@
+/* Hidden Objects */
+@media print {
+header,  aside, footer {
+    display: none;
+   }
+   nav.tabs{
+    display: none;
+   }
+}
+
+
+/*  Print Styles */
+
+section#sheet{
+    width: 8in;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    margin-left: 1in;
+    margin-right: 1in;
+    order: center;
+
+}

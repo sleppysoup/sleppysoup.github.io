@@ -1,0 +1,15 @@
+/* Navigation Tabs List Styles */
+body> header nav.tabs{
+
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+body > header nav.tabs li{
+    transform: perspective(50px) rotateX(20deg);
+}
+body > header nav.tabs li:hover{
+    background-color:rgb(194, 162, 213);
+}
+
